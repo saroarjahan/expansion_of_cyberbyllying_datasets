@@ -37,11 +37,11 @@ Each file of the 6 files contains code to create an expanded dataset from (askfm
 
 <h3>Requirements:</h3>
 <li>Python 3.7</li>
-<li>Run dependencies requirements.txt by using pip install -r requirements.txt (from command line) or !pip install -r requirements.txt (inside jupyternotebook)</li>
-<li>JupyterNoteBook required</li>
+<li>Run dependencies 'requirements.txt' by using  command:'pip install -r requirements.txt' (from command line) or '!pip install -r requirements.txt' (inside jupyternotebook)</li>
+<li>JupyterNoteBook required, Running Command for each cell in jupiter is: <strong>ctrl+enter</strong></li>
 
 
-<h4>Produce result</h4>
+<h3>Produced results-</h3>
 <strong>Table 3:</strong> Result comparison between FastText as text classifier and FastText as word embedding withCNN for AskFm base dataset.
 
 <ol>
@@ -50,7 +50,4 @@ Each file of the 6 files contains code to create an expanded dataset from (askfm
 <strong>FastText as wordembedding:</strong>  For testing this result askfm_not_extended.ipynb file require to run. This file use ask_fm_data.csv as train and test dataset.</li>
 </ol>
 
-
-
-*** This file require jupyter notebook to run.
 Running Command for each cell in jupiter is: ctrl+enter
