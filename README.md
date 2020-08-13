@@ -12,7 +12,7 @@ and the data augmentation process has been duly evaluated for both ask.fm and Fo
 
 <h3>Our repository is composed of 25 files: </h3>
 
-Among two files contain datasets namely askfm and fromspring, one requirement.tx for libraries requirements, one readme.md for instruction, and rest of the files contain results for extended datasets using method 1 (disambiguation), method2 (synonyms with Pos tagging) and method 3 (synonyms) on both datasets (askfm and fromspring), fastext classifier implementaion and mixup augmentaion.
+Among two files contain datasets namely askfm and fromspring, one requirement.tx for libraries requirements, one readme.md for instruction, and rest of the files contain results for extended datasets using method 1 (disambiguation), method2 (synonyms with Pos tagging) and method 3 (synonyms) on both datasets (askfm and fromspring), FasText as classifier implementaion, and mixup augmentaion technique implementation.
 
 Due to limitation, we are not able to upload FasText word embedding files. Please download from here and add the file to the repository.
 https://drive.google.com/open?id=1SZHPIx1Bzk9744te1_t2vZdMtYGHy1bZ
