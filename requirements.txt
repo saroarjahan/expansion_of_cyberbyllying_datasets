@@ -10,7 +10,7 @@ Keras-Preprocessing==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
 matplotlib==3.1.1
-nltk==3.4.1
+nltk==3.4.5
 pandas==0.25.1
 pywsd==1.2.4
 Random-Word==1.0.4
