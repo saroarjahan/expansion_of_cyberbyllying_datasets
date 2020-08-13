@@ -17,9 +17,9 @@ Among two files contain datasets namely askfm and fromspring, one requirement.tx
 Due to limitation, we are not able to upload FasText word embedding files. Please download from here and add the file to the repository.
 https://drive.google.com/open?id=1SZHPIx1Bzk9744te1_t2vZdMtYGHy1bZ
 
-Instruction about using this repository:
 
-Some scenarios of the work:
+
+<h3>Some scenarios of the work:</h3>
 
 1- Prepare expanded dataset using one of the methods  (M1, M2 or M3) 
 
@@ -38,6 +38,8 @@ Some scenarios of the work:
 8- Implementation of mixup as an augmentation technique.
 
 9- Experiment with different corpus datasets as training and testing.
+
+<h2>Instruction about using this repository:</h2>
 
 <h3>Requirements:</h3>
 <li>Python 3.7</li>
@@ -65,10 +67,10 @@ There are two dataset files- AskFm (ask_fm_data.csv)  and FromSpring (formspring
 </ol>
 
 
-<strong></strong>Table 5: Classifier Accuracy (%) and F1 scores (%) of CNN classification using word embedding representation for original and expanded datasets. Cross dataset1 consists in creating a training set from AskFm and test set from FormSpring and Cross dataset2 consists in creating a training set from Formspring and test set from AskFm
+<strong>Table 5:</strong> Classifier Accuracy (%) and F1 scores (%) of CNN classification using word embedding representation for original and expanded datasets. Cross dataset1 consists in creating a training set from AskFm and test set from FormSpring and Cross dataset2 consists in creating a training set from Formspring and test set from AskFm
 
 <ol>
-	<li>there are 8 file rename from (1-8) for experiemnting difeerent training and test experiemnt. we have test Askfm(train) vs FromSpring(test), and FromSpring(train) Vs AskFm(test).</li>
+	<li>There are 8 file rename from (1-8) for experiemnting difeerent training and test experiemnt. we have test Askfm(train) vs FromSpring(test), and FromSpring(train) Vs AskFm(test).</li>
 
 </ol>
 
@@ -78,9 +80,5 @@ There are two dataset files- AskFm (ask_fm_data.csv)  and FromSpring (formspring
 <ol>
 	<li>Mixup implentation:</li> for testing mixup 'mixup.ipynb' file 18 should be run. It will get Askfm dataset as mixup augmentation.
 	<li>Random word dataset:</li> for testing  'askfm_extended_Datasets_with_random_word.ipynb' file number 20 should be run.
-	<li>Different train and testing:</li>  fortesting file number 1- 8 should be run.
+	<li>Different train and testing:</li>  for testing file number 1-8 should be run.
 </ol>
-
-
-
-
