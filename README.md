@@ -10,7 +10,7 @@ The classification process involves a CNN model and baseline classifiers (Bayes 
 and the data augmentation process has been duly evaluated for both ask.fm and Formspring dataset.
 
 
-Our repository is composed of 25 files: 
+<h3>Our repository is composed of 25 files: </h3>
 
 Among two files contain datasets namely askfm and fromspring, one requirement.tx for libraries requirements, one readme.md for instruction, and rest of the files contain results for extended datasets using method 1 (disambiguation), method2 (synonyms with Pos tagging) and method 3 (synonyms) on both datasets (askfm and fromspring), fastext classifier implementaion and mixup augmentaion.
 
@@ -50,7 +50,7 @@ https://drive.google.com/open?id=1SZHPIx1Bzk9744te1_t2vZdMtYGHy1bZ
 There are two dataset files- AskFm (ask_fm_data.csv)  and FromSpring (formspring_all.csv).
 
 
-<h3>Produced results-</h3>
+<h3>Produced table of results could be achived by ruinning following files</h3>
 <strong>Table 3:</strong> Result comparison between FastText as text classifier and FastText as word embedding withCNN for AskFm base dataset.
 
 <ol>
@@ -78,7 +78,7 @@ There are two dataset files- AskFm (ask_fm_data.csv)  and FromSpring (formspring
 <strong>Table 6:</strong> Result comparison with Mixup technique, random word dataset, and using training and test dataset from different corpus.
 
 <ol>
-	<li>Mixup implentation:</li> for testing mixup 'mixup.ipynb' file 18 should be run. It will get Askfm dataset as mixup augmentation.
-	<li>Random word dataset:</li> for testing  'askfm_extended_Datasets_with_random_word.ipynb' file number 20 should be run.
-	<li>Different train and testing:</li>  for testing file number 1-8 should be run.
+	<li><strong>Mixup implentation:</strong></li> for testing mixup 'mixup.ipynb' file 18 should be run. It will get Askfm dataset as mixup augmentation.
+	<li><strong>Random word dataset:</strong></li> for testing  'askfm_extended_Datasets_with_random_word.ipynb' file number 20 should be run.
+	<li><strong>Different train and testing:</strong></li>  for testing file number 1-8 should be run.
 </ol>
