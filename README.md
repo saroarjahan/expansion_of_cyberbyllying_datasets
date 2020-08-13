@@ -32,8 +32,11 @@ Some scenarios of the work:
 5- Traininig of the baseline classifiers (Naive Bayes and Linear Classifier) on the data, using different types of the features . Prediction and calculation of accuracy and F1 score.
 
 6- Train of the CNN model on the data, prediction and calculation of accuracy and F1 score. Then, comparison of results obtained using CNN with results obtained using baseline classifiers.
+
 7- Implementation of Fastest as classifier.
+
 8- Implementation of mixup as an augmentation technique.
+
 9- Experiment with different corpus datasets as training and testing.
 
 <h3>Requirements:</h3>
@@ -51,11 +54,11 @@ There are two dataset files- AskFm (ask_fm_data.csv)  and FromSpring (formspring
 <ol>
 	<li><strong>FastText as classifier:</strong> implementation with AskFm dataset can be found by running 19 number file name fastext.ipynb. This file use 'ask_tain.txt' as train datasets and 'ask_test.txt' as test dataset.</li>
 	<li>
-<strong>FastText as wordembedding:</strong>  For testing this result askfm_not_extended.ipynb file require to run. This file use ask_fm_data.csv as train and test dataset.</li>
+<strong>FastText as wordembedding:</strong>  For testing this result 9 number file name 'askfm_not_extended.ipynb' should be run. This file use ask_fm_data.csv as train and test dataset.</li>
 </ol>
 
 
-<strong>Table 4: </strong> Classifier Accuracy (%) and F1 scores (%) for AskFm not expanded dataset,  and itsunderlying expanded datasets using method 1, 2 and 3 respectively.
+<strong>Table 4: </strong> Classifier Accuracy (%) and F1 scores (%) for AskFm not expanded dataset,  and its underlying expanded datasets using method 1, 2 and 3 respectively.
 
 <ol>
 	<li>For testing file 9 to 12 should be run.</li>
