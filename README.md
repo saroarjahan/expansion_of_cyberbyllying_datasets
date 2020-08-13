@@ -44,8 +44,15 @@ Each file of the 6 files contains code to create an expanded dataset from (askfm
 <h4>Produce result</h4>
 <strong>Table 3:</strong> Result comparison between FastText as text classifier and FastText as word embedding withCNN for AskFm base dataset.
 
-<strong>FastText as classifier:</strong> implementation with AskFm dataset can be found by running fastext.ipynb. This file use ask_tain.txt as train datasets and ask_test.txt as test dataset.
-<strong>FastText as wordembedding:</strong>  For testing this result askfm_not_extended.ipynb file require to run. This file use ask_fm_data.csv as train and test dataset.
+<li>
+	<ol><strong>FastText as classifier:</strong> implementation with AskFm dataset can be found by running fastext.ipynb. This file use ask_tain.txt as train datasets and ask_test.txt as test dataset.</ol>
+	<ol>
+<strong>FastText as wordembedding:</strong>  For testing this result askfm_not_extended.ipynb file require to run. This file use ask_fm_data.csv as train and test dataset.</ol>
+</li>
+
+
+
+
 
 
 
