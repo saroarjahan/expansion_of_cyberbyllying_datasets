@@ -36,6 +36,9 @@ Each file of the 6 files contains code to create an expanded dataset from (askfm
 6- Train of the CNN model on the data, prediction and calculation of accuracy and F1 score. Then, comparison of results obtained using CNN with results obtained using baseline classifiers.
 
 
+<h4>Produce result</h4>
+Table 3: Result comparison between FastText as text classifier and FastText as word embedding withCNN for AskFm base dataset.
+
 
 *** This file require jupyter notebook to run.
 Running Command for each cell in jupiter is: ctrl+enter
