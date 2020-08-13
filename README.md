@@ -80,5 +80,5 @@ There are two dataset files- AskFm (ask_fm_data.csv)  and FromSpring (formspring
 <ol>
 	<li><strong>Mixup implentation:</strong></li> for testing mixup 'mixup.ipynb' file 18 should be run. It will get Askfm dataset as mixup augmentation.
 	<li><strong>Random word dataset:</strong></li> for testing  'askfm_extended_Datasets_with_random_word.ipynb' file number 20 should be run.
-	<li><strong>Different train and testing:</strong></li>  for testing file number 1-8 should be run.
+	<li><strong>Different train and testing:</strong></li>  for testing file number 1 and 8 should be run.
 </ol>
