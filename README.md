@@ -35,9 +35,18 @@ Each file of the 6 files contains code to create an expanded dataset from (askfm
 
 6- Train of the CNN model on the data, prediction and calculation of accuracy and F1 score. Then, comparison of results obtained using CNN with results obtained using baseline classifiers.
 
+<h3>Requirements:</h3>
+<li>Python 3.7</li>
+<li>Run dependencies requirements.txt by using pip install -r requirements.txt (from command line) or !pip install -r requirements.txt (inside jupyternotebook)</li>
+<li>JupyterNoteBook required</li>
+
 
 <h4>Produce result</h4>
-Table 3: Result comparison between FastText as text classifier and FastText as word embedding withCNN for AskFm base dataset.
+<strong>Table 3:</strong> Result comparison between FastText as text classifier and FastText as word embedding withCNN for AskFm base dataset.
+
+<strong>FastText as classifier:</strong> implementation with AskFm dataset can be found by running fastext.ipynb. This file use ask_tain.txt as train datasets and ask_test.txt as test dataset.
+<strong>FastText as wordembedding:</strong>  For testing this result askfm_not_extended.ipynb file require to run. This file use ask_fm_data.csv as train and test dataset.
+
 
 
 *** This file require jupyter notebook to run.
