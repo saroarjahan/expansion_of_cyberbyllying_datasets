@@ -1,7 +1,6 @@
 Cyberbullying detection with WordNet-based semantic expansion and word disambiguation
 
-# expansion_of_cyberbyllying_datasets
-
+# Data Expansion using WordNet-based Semantic Expansion And Word Disambiguation for Cyberbullying detection.
 Our methodology includes three-stage process: data collection; data augmentation, feature engineering and classification; 
 Motivated by the lack of availability of well-balanced annotated cyberbullying dataset, our methodology includes a new collected 
 dataset from Ask.fm social network website and the use of the publicly Formspring dataset for comparison purposes. 
